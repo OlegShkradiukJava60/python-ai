@@ -1,17 +1,7 @@
-# HW#30 Solution
+# HW#31 solution
 
-## Creating predictions model (Solution may be found in https://github.com/java-60TelRan/python-ai/tree/gender-color-model )
+## Write implementation of the algorithm described in the https://playgameoflife.com/lexicon/ (see explanation tab at the link) and in the interview task (see https://www.dropbox.com/scl/fi/6lotbgrmjv03kyw7ja8ds/Seeking-Alpha-React-Test.docx?rlkey=2n6w48ka6mr3rd3afl7zkqfea&st=6dotch1x&dl=0 )
 
-### Create model for predictions with Gender, Color as input (X) and car's model as output (y)
+### Note1: Interview task defines the assignment for React. From that definition you should take only the algorithm describing. Implementation should be done in Python based on the prototype from the last cell of the img-processing.ipynb of the branch "image-processing"<br>
 
-#### Compute accuracy
-
-#### Persist
-
-## Working with "pandas" package (research task) (Solution in this ranch)
-
-### Getting Data Frame containing only data about Hyundai
-
-### Getting Data Frame containing only data about Toyota with price greater than 40000
-
-### Define 3 most popular car's models
+### Note2: Algorithm should imply finishing once the image data are not changed

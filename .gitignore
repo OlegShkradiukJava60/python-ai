@@ -1,2 +1,4 @@
-.ipynb_checkpoints/car_sales-checkpoint.ipynb
+.ipynb_checkpoints
 car_sales_cleaned1.csv
+__pycache__
+*.joblib
