@@ -1,4 +1,12 @@
-# HW#31 Definition
-## Write implementation of the algorithm described in the https://playgameoflife.com/lexicon/ (see explanation tab at the link) and in the interview task (see https://www.dropbox.com/scl/fi/6lotbgrmjv03kyw7ja8ds/Seeking-Alpha-React-Test.docx?rlkey=2n6w48ka6mr3rd3afl7zkqfea&st=6dotch1x&dl=0 ) 
-Note1: Interview task defines the assignment for React. From that definition you should take only the algorithm describing. Implementation should be done in Python based on the prototype from the last cell of the img-processing.ipynb of the branch "image-processing"<br>
-Note2: Algorithm should imply finishing once the image data are not changed
+# HW#32 Definition
+
+## Introduce module "text_sklearn_model.py" with class TextModel containing the following
+
+### constructor (**init**) taking string with sentences separated by dot
+
+### method getAnswers(self, question: str, nAnswers: int)->list[str]
+
+takes string with question sentence and number of relevant answers<br>
+returns list of strings-answers (maximal number of strings is the given nAnswers value) sorted by similarity (relevance) to the answer in the descending order<br>
+
+### Note: result should contain only sentences with non-zero similarity. If no such sentences, the empty list should be returned
