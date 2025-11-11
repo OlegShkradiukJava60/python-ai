@@ -1,4 +1,4 @@
-# HW#32 Definition
+# HW#32 Solution
 
 ## Introduce module "text_sklearn_model.py" with class TextModel containing the following
 
